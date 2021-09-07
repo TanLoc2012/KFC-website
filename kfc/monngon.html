@@ -1,0 +1,203 @@
+<!DOCType html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="js/startstop-slider.js"></script>
+    <title>My Website</title>
+</head>
+<body>
+<div class="wrap">
+
+    <div class="header">
+        <div class="header_top">
+            <div class="logo">
+                <a href="combo1.html"><img src="img/logo_pc.png" alt="Logo" ></a>
+            </div>
+            <div class="search_box">
+                    <input type="text" placeholder="Search..">
+            </div>
+            <div class="call">
+                <p><span>Need help? </span>call us <span class="number">1-22-3456789</span></p>
+            </div>
+        <button onclick="document.getElementById('login').style.display='block'" 
+        style="width: auto;background: white;color:black;float: right;font-size: 20px;">Đăng nhập</button>
+        <div id="login" class="modal" >
+            <form class="modal-content animate" action="/action_page.php" method="POST">
+                <div class="positionClose">
+                    <span onclick="document.getElementById('login').style.display='none'"
+                    class="close" title="Close Modal">&times;</span>
+                    <p>Đăng nhập</p>
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Tên đăng nhập</b></label>
+                    <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+
+                    <label for="psw"><b>Mật khẩu</b></label>
+                    <input type="text" placeholder="Mật khẩu" name="psw" required>
+
+                    <button type="submit" style="color: red">Đăng nhập</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Ghi nhớ tài khoản
+                    </label>
+                </div>
+
+                <div class="container">
+                    <button type="button" onclick="document.getElementById('login').style.display='none'"
+                    class="cancelbtn">Thoát </button>
+                    <span class="psw"><a href="#">Quên mật khẩu?</a></span>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <a href="combo1.html">Combo 1 người</a>
+        <a href="combo2.html">Combo 2 người</a>
+        <a href="menuuudai.html">Menu ưu đãi</a>
+        <a class="active" href="monngon.html">Món ngon</a>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="img/slide1.png" alt="slide1" />  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="img/slide2.png" />  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="img/slide3.png" />  
+        </div>  
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">pre</a>  
+        <a class="right" onclick="nextSlide(1)">next</a>  
+    </div>  
+
+    <div class="sidenav">
+        <p><b>Combo 1 Người</b></p>
+        <a href="combo1.html">Tất cả</a>
+    </div>
+    <div class="main">
+        <div class="card">
+            <a href="info_food1.html"><img src="img/food1.jpg" alt="Food1" style="width: 100%;"></a>
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+        <div class="card" style="margin-left: 60px;">
+            <img src="img/food1.jpg" alt="Food1" style="width: 100%;">
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+        <div class="card" style="margin-left: 60px;">
+            <img src="img/food1.jpg" alt="Food1" style="width: 100%;">
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+        <div class="card">
+            <img src="img/food1.jpg" alt="Food1" style="width: 100%;">
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+        <div class="card" style="margin-left: 60px;">
+            <img src="img/food1.jpg" alt="Food1" style="width: 100%;">
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+        <div class="card" style="margin-left: 60px;">
+            <img src="img/food1.jpg" alt="Food1" style="width: 100%;">
+            <h1>Combo gà rán A</h1>
+            <p class="price">79.000đ</p>
+            <p>2 Miếng Gà Giòn Cay/ 2 Miếng Gà Giòn Không Cay / 2 Miếng Gà Truyền Thống</p>
+            <p><button>Đặt hàng</button></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <a href="thucdon.html"><b>THỰC ĐƠN</b></a><br>
+            <a href="nhahang.html"><b>NHÀ HÀNG</b></a><br>
+            <a href="khuyenmai.html"><b>TIN KHUYẾN MÃI</b></a><br>
+            <a href="order_event.html"><b>ĐẶT TIỆC</b></a><br>
+            <a href="thanhvien.html"><b>THÀNH VIÊN</b></a><br>
+        </div>
+        <div class="column">
+            <a href="information.html"><b>GIỚI THIỆU</b></a>
+        </div>
+        <div class="column">
+            <a href="information.html"><b>NGHỀ NGHIỆP</b></a>
+        </div>
+        <div class="column">
+            <a href="information.html"><b>LIÊN HỆ VỚI KFC</b></a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</div>
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('login');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script type="text/javascript">  
+    var slide_index = 1;  
+    displaySlides(slide_index);  
+
+    function nextSlide(n) {  
+        displaySlides(slide_index += n);  
+    }  
+
+    function currentSlide(n) {  
+        displaySlides(slide_index = n);  
+    }  
+
+    function displaySlides(n) {  
+        var i;  
+        var slides = document.getElementsByClassName("showSlide");  
+        if (n > slides.length) { slide_index = 1 }  
+        if (n < 1) { slide_index = slides.length }  
+        for (i = 0; i < slides.length; i++) {  
+            slides[i].style.display = "none";  
+        }  
+        slides[slide_index - 1].style.display = "block";  
+    }  
+</script>  
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html>
