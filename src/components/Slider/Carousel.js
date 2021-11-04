@@ -78,10 +78,10 @@ function Carousel(props) {
                 <img src="https://nhahangkimgiadalat.com/images/slide/4ba599aa4e18f1e11ed4202bc09b00c6.jpg"></img>
               </div>
               <div key={4}>
-                <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/dd690x300_XR.png"></img>
+                <img src="https://nhahangkimgiadalat.com/images/slide/feb216bdd35afa73086fbab2b89b059c.jpg"></img>
               </div>
               <div key={4}>
-                <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/se-aw-690-300-max.png"></img>
+                <img src="https://nhahangkimgiadalat.com/images/slide/4ba599aa4e18f1e11ed4202bc09b00c6.jpg"></img>
               </div>
             </Slider>
             <div className='carousel-left-move' onClick={() => previous()}>
@@ -102,19 +102,19 @@ function Carousel(props) {
                      >
               
               <div>
-                TRỢ GIÁ MÙA DỊCH <br></br> Ưu đãi vô địch
+              BỮA CƠM GIA ĐÌNH VIỆT  <br></br>  Ăn đi chờ chi
               </div>
               <div>
-               GÀ TRE NƯỚNG  <br></br>  Hotsale giảm sập sàn
+               GÀ TRE NƯỚNG  <br></br>  Giảm đến 15%
               </div>
               <div>
-              XR CHÍNH HÃNG  <br></br>  Giá mới cực tốt
+              BÒ KUBE SIÊU CẤP VIP PRO  <br></br>  Khuyến mãi với giá siêu ưu đãi 1.999.999.999$
               </div>
               <div>
-              APPLE WATCH SE  <br></br>  Mua đi chờ chi
+              BỮA CƠM GIA ĐÌNH VIỆT  <br></br>  Ăn đi chờ chi
               </div>
               <div>
-              ĐẠI TIỆC ÂM THANH   <br></br>   Loa sale bung nóc
+              BÒ KUBE SIÊU CẤP VIP PRO  <br></br>  Khuyến mãi với giá siêu ưu đãi 1.999.999.999$
               </div>
 
             </Slider>
@@ -122,13 +122,13 @@ function Carousel(props) {
         </div>
         <div className="carousel-right">
           <div className="carousel-right-item">
-            <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/RB_S21.png"></img>
+            <img src="https://nhahangkimgiadalat.com/images/slide/4ba599aa4e18f1e11ed4202bc09b00c6.jpg"></img>
           </div>
           <div className="carousel-right-item">
-            <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/iPhone_12_690x300_copyssspng.png"></img>
+            <img src="https://nhahangkimgiadalat.com/images/slide/ab8f3eb269295b7258d49f60baf30e73.jpg"></img>
           </div>
           <div className="carousel-right-item">
-            <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/11lite-690-300-max.png"></img>
+            <img src="https://nhahangkimgiadalat.com/images/slide/feb216bdd35afa73086fbab2b89b059c.jpg"></img>
           </div>
         </div>
       </div>

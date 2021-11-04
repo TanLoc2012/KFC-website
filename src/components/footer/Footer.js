@@ -16,23 +16,27 @@ function Footer(props) {
                 {/* Begin Footer Logo Area */}
                 <div className="col-lg-4 col-md-6">
                   <div className="footer-logo">
-                    <img src="https://cdn5.vectorstock.com/i/1000x1000/39/69/restaurant-logo-or-label-emblems-for-menu-design-vector-21433969.jpg" className="logo2" alt="Footer Logo" />
                     <p className="info">
-                      We are a team of designers and developers that create high quality HTML Template &amp; Woocommerce, Shopify Theme.
+                      Chúng tôi là đội ngũ với 5 thành viên chuyên thiết kế Website siêu cấp vip bro 
                     </p>
+                    <p>Leader: Nguyễn Quang Long lập trình viên Backend</p>
+                    <p>Thành viên: Lê Huy Ngọ lập trình viên Backend</p>
+                    <p>Thành viên: Nguyễn Duy Khánh lập trình viên Frontend</p>
+                    <p>Thành viên: Võ Văn Đăng Khoa lập trình viên Frontend</p>
+                    <p>Thành viên: Nguyễn Tấn Lộc lập trình viên Frontend</p>
                   </div>
                   <ul className="des">
                     <li>
-                      <span>Address: </span>
-                      6688Princess Road, London, Greater London BAS 23JK, UK
+                      <span>Địa chỉ: </span>
+                      Đại học Bách Khoa Thành phố Hồ Chí Minh
                     </li>
                     <li>
                       <span>Phone: </span>
-                      <a href="#">(+123) 123 321 345</a>
+                      <a href="#">0987 654 321</a>
                     </li>
                     <li>
                       <span>Email: </span>
-                      <a href="mailto://info@yourdomain.com">info@yourdomain.com</a>
+                      <a href="dhbk">dhbk@hcmut.edu.vn</a>
                     </li>
                   </ul>
                 </div>
@@ -40,12 +44,11 @@ function Footer(props) {
                 {/* Begin Footer Block Area */}
                 <div className="col-lg-2 col-md-3 col-sm-6">
                   <div className="footer-block">
-                    <h3 className="footer-block-title">Product</h3>
+                    <h3 className="footer-block-title">Món ăn</h3>
                     <ul>
-                      <li><a href="#">Prices drop</a></li>
-                      <li><a href="#">New products</a></li>
-                      <li><a href="#">Best sales</a></li>
-                      <li><a href="#">Contact us</a></li>
+                      <li><a href="#">Pizza</a></li>
+                      <li><a href="#">Sushi</a></li>
+                      <li><a href="#">Sushi</a></li>
                     </ul>
                   </div>
                 </div>
@@ -53,12 +56,10 @@ function Footer(props) {
                 {/* Begin Footer Block Area */}
                 <div className="col-lg-2 col-md-3 col-sm-6">
                   <div className="footer-block">
-                    <h3 className="footer-block-title">Our company</h3>
+                    <h3 className="footer-block-title">Nhà hàng</h3>
                     <ul>
-                      <li><a href="#">Delivery</a></li>
-                      <li><a href="#">Legal Notice</a></li>
-                      <li><a href="#">About us</a></li>
-                      <li><a href="#">Contact us</a></li>
+                      <li><a href="#">Giới thiệu</a></li>
+                      <li><a href="#">Liên hệ với chúng tôi</a></li>
                     </ul>
                   </div>
                 </div>
@@ -66,7 +67,7 @@ function Footer(props) {
                 {/* Begin Footer Block Area */}
                 <div className="col-lg-4">
                   <div className="footer-block">
-                    <h3 className="footer-block-title">Follow Us</h3>
+                    <h3 className="footer-block-title">Theo dõi chúng tôi </h3>
                     <ul className="social-link">
                       <li className="twitter">
                         <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
