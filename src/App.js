@@ -4,6 +4,9 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage';
 import DetailPage from './pages/DetailPage';
+import ProductPage from './pages/ProductPage';
+import CartPage from './pages/CartPage';
+import AdminPage from './pages/AdminPage';
 
 function App() {
   return (
@@ -25,6 +28,18 @@ function App() {
 
         <Route path="/detail/:id">
           <DetailPage></DetailPage>
+        </Route>
+
+        <Route path='/cart'>
+          <CartPage></CartPage>
+        </Route>
+
+        <Route path="/product">
+          <ProductPage></ProductPage>
+        </Route>
+
+        <Route path='/admin'>
+          <AdminPage></AdminPage>
         </Route>
 
       </Router>
